@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Bot Service
+After=network.target
+
+[Service]
+ExecStart=python /root/botj0/botapi.py
+#ExecStart=python /root/botj/botapi.py
+Restart=always
+
+
+[Install]
+WantedBy=default.target
