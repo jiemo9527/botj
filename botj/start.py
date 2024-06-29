@@ -1,14 +1,5 @@
-import sys
 from http.server import HTTPServer, SimpleHTTPRequestHandler
-import socketserver
-import time
-import threading
-import subprocess
-import requests
-import os
-import glob
-from tqdm import tqdm
-import psutil
+
 
 
 # Telegram Bot API密钥
